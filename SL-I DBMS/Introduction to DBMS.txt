@@ -1,0 +1,7 @@
+Create a Database:- CREATE DATABASE (Database_name)
+Create a Table inside the Database:- CREATE TABLE table_name(components of the table);
+                                    eg. CREATE TABLE emp(EmployeeName varchar(30), EmployeeID int, )
+to display the table:- desc (table_name)
+
+To insert details into a table:- 
+INSER INTO table table_name(Datatypes)value(Values you wanna input).
