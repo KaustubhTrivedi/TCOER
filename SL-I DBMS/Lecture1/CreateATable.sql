@@ -1,0 +1,1 @@
+CREATE TABLE students(StudentID int, StudentMarks DOUBLE ,StudentName VARCHAR (20), StudentRollNo int);
