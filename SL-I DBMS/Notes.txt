@@ -5,3 +5,6 @@ to display the table:- desc (table_name)
 
 To insert details into a table:- 
 INSER INTO table table_name(Datatypes)value(Values you wanna input).
+
+
+format for date is = YYYY-MM-DD
