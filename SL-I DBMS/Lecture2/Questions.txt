@@ -1,0 +1,5 @@
+1. Display nqme of employees whos job is manager
+2. Display name of employeeswhos job is not manager
+3. Display name of the employees whos salaray is greater than 20000
+4. Display name of the employees whos Department Number is 10
+5. Display name of the employees whos salary is less than 20000
