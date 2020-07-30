@@ -18,4 +18,4 @@ format for date is = YYYY-MM-DD
 SQL functions
 sql has many built in functions, for performing calculations on data.
 These are also called as group functions.
-Group functions:- They are built in sql functions that operate on group of rows and returns one value
+Group functions ( Aggregate functions):- They are built in sql functions that operate on group of rows and returns one value
