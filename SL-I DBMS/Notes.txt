@@ -8,3 +8,14 @@ INSER INTO table table_name(Datatypes)value(Values you wanna input).
 
 
 format for date is = YYYY-MM-DD
+
+
+1   display the name of the employee where second letter of a name is 'a'
+2   display the name of the employee where Third letter of a name is 'a'
+3   Find the names of the employess whose names of the employees whos ame starts with 'S' and ends with 'H'
+4   Find the employees whos name's length is 5 and starts with 'S'
+
+SQL functions
+sql has many built in functions, for performing calculations on data.
+These are also called as group functions.
+Group functions:- They are built in sql functions that operate on group of rows and returns one value
