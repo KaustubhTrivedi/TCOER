@@ -1,0 +1,95 @@
+Q1)Display employees name whose job is manager or salesman
+
+
+mysql> select name from emp where job='manager' or job='salesman';
++----------+
+| name     |
++----------+
+| smith    |
+| mansi    |
+| sharvari |
++----------+
+3 rows in set (0.00 sec)
+
+
+Q2)Display the names of the employee whose department is 10 and job is manager.
+
+mysql> select name,job,deptno from emp where job='manager' and deptno='10';
++----------+---------+--------+
+| name     | job     | deptno |
++----------+---------+--------+
+| smith    | manager |     10 |
+| sharvari | manager |     10 |
++----------+---------+--------+
+2 rows in set (0.00 sec)
+
+
+Q3)Display the names of the employee whose salary is not 50000.
+
+mysql> select name from emp where salary !='5000';
++----------+
+| name     |
++----------+
+| smith    |
+| teju     |
+| rahul    |
+| mansi    |
+| sharvari |
++----------+
+5 rows in set (0.00 sec)
+
+
+Q4)Display the names of the employees in ascending order of their salary.
+
+mysql> select name,salary from emp order by salary asc;
++----------+--------+
+| name     | salary |
++----------+--------+
+| mansi    |  10000 |
+| teju     |  20000 |
+| sharvari |  25000 |
+| smith    |  30000 |
+| rahul    |  50000 |
++----------+--------+
+5 rows in set (0.00 sec)
+
+
+Q5)Display the names of the employees in descending order of their salary.
+
+mysql> select name ,salary from emp order by salary desc;
++----------+--------+
+| name     | salary |
++----------+--------+
+| rahul    |  50000 |
+| smith    |  30000 |
+| sharvari |  25000 |
+| teju     |  20000 |
+| mansi    |  10000 |
++----------+--------+
+5 rows in set (0.00 sec)
+
+
+Q6)Display the names of the employees whose job is manager or salesman or officer.
+
+mysql> select name,job from emp where job in('manager','officer','salesman');
++----------+----------+
+| name     | job      |
++----------+----------+
+| smith    | manager  |
+| rahul    | officer  |
+| mansi    | salesman |
+| sharvari | manager  |
++----------+----------+
+4 rows in set (0.00 sec)
+
+
+Q7)Display the names of the employee whose salary is between 5000 to 20000.
+
+mysql> select name,salary from emp where salary between 5000 and 20000;
++-------+--------+
+| name  | salary |
++-------+--------+
+| teju  |  20000 |
+| mansi |  10000 |
++-------+--------+
+2 rows in set (0.00 sec)
